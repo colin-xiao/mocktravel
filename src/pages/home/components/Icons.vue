@@ -100,6 +100,7 @@ export default{
   padding-bottom 50%
   
 
+
  .icons
     height:0
     width 100%
@@ -134,4 +135,8 @@ export default{
       color $darkTextColor
       text-align center
       ellipsis()
+
+.icons{
+  margin-top: .1rem
+}
 </style>
