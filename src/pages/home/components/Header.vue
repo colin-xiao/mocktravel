@@ -7,8 +7,10 @@
   <span class="iconfont ">&#xe632;</span>
   输入城市景点游玩主题
   </div>
+  <router-link to="/city">
 <div class="header-right">{{this.city}}</div> 
   <span class="iconfont down-icon">&#xe64a;</span>
+  </router-link>
  </div>
 </template>
 <script>
@@ -25,7 +27,7 @@ export default{
 .header{
   display:flex
 
-  line-height .86rem
+  line-height $headerHeight
   background: $bgColor
   color #fff
 }
@@ -38,6 +40,7 @@ export default{
     width : 1rem
     float : right
     text-align:center
+    color:#fff
     }
 
 .header-input{
@@ -60,7 +63,7 @@ export default{
 
 .down-icon{
   font-size: .24rem
-  margin-left: -.04rem
+  margin-left: .2rem
 }
 
 
