@@ -6,6 +6,13 @@
   "description": "去哪网图标",
   "glyphs": [
     {
+      "icon_id": "6446151",
+      "name": "图片",
+      "font_class": "tianchongxing-",
+      "unicode": "e635",
+      "unicode_decimal": 58933
+    },
+    {
       "icon_id": "566360",
       "name": "箭头",
       "font_class": "jiantou",
